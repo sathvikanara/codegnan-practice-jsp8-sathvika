@@ -1,0 +1,103 @@
+  @media(min-width:1200px){
+	.apple div{
+		padding: 50px;
+		font-weight: bold;
+	}
+	.apple{
+		display: grid;
+		grid-template-columns: auto auto auto auto;
+		text-align: center;
+	}
+	.mo{
+		background-color: beige;
+
+	}
+	.fan{
+	padding: 40px;
+	position: absolute;
+	left: 10%;
+	font-weight: bold;
+}
+.goat{
+	padding: 40px;
+	position: absolute;
+	right: 10%;
+}
+.hen{
+	padding: 40px;
+	position: absolute;
+	left: 10%;
+	top: 55%;
+}
+.joy{
+	border-left: black;
+	border:solid;
+}
+}
+@media(max-width:1200px) and (min-width:450px){
+		.apple div{
+		padding: 20px;
+		font-weight: bold;
+	}
+	.apple{
+		display: grid;
+		grid-template-columns: auto auto;
+	}
+	.fan{
+	padding: 40px;
+	position: absolute;
+	left: 10%;
+	font-weight: bold;
+}
+.goat{
+	text-align: center;
+	padding: 40px;
+	position: absolute;
+	top: 75%;
+	left: 5%;
+}
+.hen{
+	padding: 40px;
+	position: absolute;
+	left: 10%;
+	top: 55%;
+}
+}
+@media(max-width:450px){
+   .apple div{
+		padding: 20px;
+		font-weight: bold;
+		text-align: center;
+	}
+	.apple{
+		display: grid;
+		grid-template-columns: auto;
+		position: absolute;
+		left: 47%;
+	}
+	.fan{
+	padding: 40px;
+	position: absolute;
+	left: 10%;
+	font-weight: bold;
+	top: 25%;
+}
+.ff{
+	height: 40px;
+	width: 40px;
+	border-radius: 10px;
+}
+.goat{
+	padding: 40px;
+	position: absolute;
+	top: 75%;
+	left: 2%;
+}
+.hen{
+	padding: 40px;
+	position: absolute;
+	left: 10%;
+	top: 55%;
+}
+}
+}
